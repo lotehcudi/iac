@@ -1,0 +1,19 @@
+# Local .terraform directories
+**/.terraform/*
+
+##Local .terragrunt directories
+**/.terragrunt-cache/* 
+
+##IAC Script
+**/istio-1*/*
+**/tenant_list.json
+**/kube_config
+**/charts*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.terraform.lock.*
+
+#credentials
+**/credentials
